@@ -30,27 +30,13 @@ git remote add origin git@github.com:coding-to-music/docusaurus-classic-site.git
 git push -u origin main
 ```
 
-Deploying Docusaurus to Cloudflare Pages
-
-#
-
-docusaurus
-
-#
-
-cloudflare
-
-webdev
-
-Hello there!
-
-<img src="images/classic-docusaurus-site.png" alt="classic-docusaurus-site" />
+# Deploying Docusaurus to Cloudflare Pages
 
 Docusaurus is a commonly used static site generator. It is built on top of react and can be used to make any kind of site (personal website, product, blog, marketing landing pages, etc).
 
 Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
 
-Creating the App
+## Creating the App
 
 Open up your shiny terminals and create a docusaurus app How to create: https://docusaurus.io/docs/installation#scaffold-project-website
 
@@ -62,7 +48,7 @@ Then, Run the start command.
 
 It will open up your browser to the development website: http://localhost:3000/
 
-### Demo website
+<img src="images/classic-docusaurus-site.png" alt="classic-docusaurus-site" />
 
 Now, Your Docusaurus Website is ready, Let's deploy it over cloudflare pages.
 
@@ -97,8 +83,9 @@ Then Click Deploy, Within 5mins your app would be ready :)
 
 https://docusaurus-cf-pages.pages.dev/
 
-Add a Custom Domain To Your App
-Redirecting www to apex domain
+Add a Custom Domain To Your App https://developers.cloudflare.com/pages/get-started#adding-a-custom-domain
+
+Redirecting www to apex domain https://developers.cloudflare.com/pages/how-to/www-redirect
 
 # Website
 
