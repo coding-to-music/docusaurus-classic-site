@@ -2,6 +2,8 @@
 
 # 🚀 Classic docs and blog site built using Docusaurus 2 🚀
 
+https://docusaurus-classic-site.pages.dev
+
 https://github.com/coding-to-music/docusaurus-classic-site
 
 From / By Docusaurus
