@@ -97,7 +97,7 @@ function Open() {
         labels: data.labels,
         datasets: [
           {
-            label: "Number of Gladys instances",
+            label: "Number of BrandX instances",
             borderColor: "#74b9ff",
             data: data.points,
             fill: false,
@@ -189,7 +189,7 @@ function Open() {
       description={translate({
         id: "openPage.metaDescription",
         description: "gladys open page meta description",
-        message: "See some interesting statistics about Gladys usage !",
+        message: "See some interesting statistics about BrandX usage !",
       })}
     >
       <main>
@@ -205,7 +205,7 @@ function Open() {
                 >
                   <Translate
                     id="openPage.title"
-                    description="Gladys open page title"
+                    description="BrandX open page title"
                   >
                     Open metrics
                   </Translate>
@@ -215,8 +215,8 @@ function Open() {
                     id="openPage.description"
                     description="Open page description"
                   >
-                    BrandX is completely transparent: how much people are using
-                    BrandX? What's the current revenue of the project?
+                    BrandX is completely transparent: how much are people are
+                    using BrandX? What's the current revenue of the project?
                   </Translate>
                 </p>
               </div>
@@ -231,9 +231,9 @@ function Open() {
                         <div className="text--center">
                           <Translate
                             id="openPage.homeRunningGladys"
-                            description="Open Page home running Gladys"
+                            description="Open Page home running BrandX"
                           >
-                            Home running Gladys
+                            Home running BrandX
                           </Translate>
                         </div>
                         <h3
@@ -251,9 +251,9 @@ function Open() {
                         <div className="text--center">
                           <Translate
                             id="openPage.gladysPlusUsers"
-                            description="Open Page gladys plus users Gladys"
+                            description="Open Page gladys plus users BrandX"
                           >
-                            Gladys Plus users
+                            BrandX Plus users
                           </Translate>
                         </div>
                         <h3
@@ -295,7 +295,7 @@ function Open() {
                             id="openPage.numberOfHomeRunningGladys"
                             description="Chart title"
                           >
-                            Number of home running Gladys
+                            Number of home running BrandX
                           </Translate>
                         </h2>
                         <div style={{ height: "400px" }}>
