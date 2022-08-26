@@ -78,7 +78,7 @@ const config = {
             items: [
               {
                 label: "Glady's Assistant Open Metrics using chart.js",
-                to: "/charts/gladys-assistant-open",
+                to: "/gladys-assistant/open-metrics",
               },
               {
                 label: "111 using chart.js",
