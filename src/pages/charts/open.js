@@ -295,7 +295,7 @@ function Open() {
                             id="openPage.numberOfHomeRunningGladys"
                             description="Chart title"
                           >
-                            Number of home running BrandX
+                            Number of homes running BrandX
                           </Translate>
                         </h2>
                         <div style={{ height: "400px" }}>

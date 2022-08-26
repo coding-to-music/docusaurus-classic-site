@@ -1,16 +1,16 @@
 ---
-slug: another
-title: Another!
+slug: react-grid-gallery
+title: React Grid Gallery
 authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
+  - name: Ben Howell
+    title: Creator of react-grid-gallery
+    url: https://benhowell.github.io/react-grid-gallery/
+    image_url: https://avatars.githubusercontent.com/u/1784519?s=64&v=4
+  - name: Another Person
+    title: Another maintainer
     url: https://sebastienlorber.com
     image_url: https://github.com/slorber.png
-tags: [another]
+tags: [react-grid-gallery]
 ---
 
 # React Grid Gallery
