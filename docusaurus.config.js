@@ -71,33 +71,33 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           // { to: "/charts/open", label: "Charts", position: "left" },
-          {
-            type: "dropdown",
-            label: "Charts",
-            position: "left",
-            items: [
-              {
-                label: "Glady's Assistant Open Metrics using chart.js",
-                to: "/gladys-assistant/open-metrics",
-              },
-              {
-                label: "111 using chart.js",
-                to: "/charts/open",
-              },
-              {
-                label: "222 using chart.js",
-                to: "/charts/open",
-              },
-              {
-                label: "333 using chart.js",
-                to: "/charts/open",
-              },
-              {
-                label: "444 using chart.js",
-                to: "/charts/open",
-              },
-            ],
-          },
+          // {
+          //   type: "dropdown",
+          //   label: "Charts",
+          //   position: "left",
+          //   items: [
+          //     {
+          //       label: "Glady's Assistant Open Metrics using chart.js",
+          //       to: "/gladys-assistant/open-metrics",
+          //     },
+          //     {
+          //       label: "111 using chart.js",
+          //       to: "/charts/open",
+          //     },
+          //     {
+          //       label: "222 using chart.js",
+          //       to: "/charts/open",
+          //     },
+          //     {
+          //       label: "333 using chart.js",
+          //       to: "/charts/open",
+          //     },
+          //     {
+          //       label: "444 using chart.js",
+          //       to: "/charts/open",
+          //     },
+          //   ],
+          // },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
