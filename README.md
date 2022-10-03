@@ -414,3 +414,49 @@ Value should be one of `npm`, `yarn`, or `pnpm`. If it's not explicitly provided
 ### `-s, --skip-install` {#skip-install}
 
 If provided, Docusaurus will not automatically install dependencies after creating the app. The `--package-manager` option is only useful when you are actually installing dependencies.
+
+## Check NPM to see what are the latest packages
+
+https://www.hostingadvice.com/how-to/update-npm-packages/
+
+```
+npm outdated
+```
+
+Output
+
+```
+Package                          Current  Wanted  Latest  Location                                      Depended by
+@docusaurus/core                   2.0.1   2.0.1   2.1.0  node_modules/@docusaurus/core                 docusaurus-classic-site
+@docusaurus/module-type-aliases    2.0.1   2.0.1   2.1.0  node_modules/@docusaurus/module-type-aliases  docusaurus-classic-site
+@docusaurus/preset-classic         2.0.1   2.0.1   2.1.0  node_modules/@docusaurus/preset-classic       docusaurus-classic-site
+@mdx-js/react                     1.6.22  1.6.22   2.1.3  node_modules/@mdx-js/react                    docusaurus-classic-site
+react                             17.0.2  17.0.2  18.2.0  node_modules/react                            docusaurus-classic-site
+react-dom                         17.0.2  17.0.2  18.2.0  node_modules/react-dom                        docusaurus-classic-site
+typescript                         4.7.4   4.8.4   4.8.4  node_modules/typescript                       docusaurus-classic-site
+```
+
+## Update NPM to latest packages
+
+```
+npm update
+```
+
+Output
+
+```
+added 12 packages, removed 4 packages, changed 85 packages, and audited 1094 packages in 1m
+
+197 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (8 moderate, 13 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+```
