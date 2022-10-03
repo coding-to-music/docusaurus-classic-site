@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "This Site Name",
   tagline: "Dinosaurs are cool",
   url: "http://all-knowledge.info",
   baseUrl: "/",
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "my-organization", // Usually your GitHub org/user name.
+  organizationName: "coding-to-music", // Usually your GitHub org/user name.
   projectName: "docusaurus-classic-site", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/coding-to-music/docusaurus-classic-site/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/coding-to-music/docusaurus-classic-site/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -70,36 +70,36 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          // { to: "/charts/open", label: "Charts", position: "left" },
-          // {
-          //   type: "dropdown",
-          //   label: "Charts",
-          //   position: "left",
-          //   items: [
-          //     {
-          //       label: "Glady's Assistant Open Metrics using chart.js",
-          //       to: "/gladys-assistant/open-metrics",
-          //     },
-          //     {
-          //       label: "111 using chart.js",
-          //       to: "/charts/open",
-          //     },
-          //     {
-          //       label: "222 using chart.js",
-          //       to: "/charts/open",
-          //     },
-          //     {
-          //       label: "333 using chart.js",
-          //       to: "/charts/open",
-          //     },
-          //     {
-          //       label: "444 using chart.js",
-          //       to: "/charts/open",
-          //     },
-          //   ],
-          // },
+          { to: "/charts/open", label: "Charts", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            type: "dropdown",
+            label: "Charts",
+            position: "left",
+            items: [
+              {
+                label: "Glady's Assistant Open Metrics using chart.js",
+                to: "/gladys-assistant/open-metrics",
+              },
+              //     {
+              //       label: "111 using chart.js",
+              //       to: "/charts/open",
+              //     },
+              //     {
+              //       label: "222 using chart.js",
+              //       to: "/charts/open",
+              //     },
+              //     {
+              //       label: "333 using chart.js",
+              //       to: "/charts/open",
+              //     },
+              //     {
+              //       label: "444 using chart.js",
+              //       to: "/charts/open",
+              //     },
+            ],
+          },
+          {
+            href: "https://github.com/coding-to-music/docusaurus-classic-site",
             label: "GitHub",
             position: "right",
           },
@@ -143,7 +143,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/coding-to-music/docusaurus-classic-site",
               },
             ],
           },
