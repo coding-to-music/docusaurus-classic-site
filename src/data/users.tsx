@@ -61,87 +61,87 @@ export type TagType =
 // Add sites to this list
 // prettier-ignore
 const Users: User[] = [
-  {
-    title: 'AgileTs',
-    description: 'Global State and Logic Framework for reactive Applications',
-    preview: require('./showcase/agilets.png'),
-    website: 'https://agile-ts.org/',
-    source: 'https://github.com/agile-ts/documentation',
-    tags: ['opensource', 'design'],
-  },
-  {
-    title: 'AI-Speaker',
-    description: 'Local, reliable, fast and private Audio and IoT gate.',
-    preview: require('./showcase/aispeaker.png'),
-    website: 'https://ai-speaker.com/',
-    source: 'https://github.com/sviete/AIS-WWW',
-    tags: ['opensource'],
-  },
-  {
-    title: 'Aide Jeune',
-    description:
-      'French Discord server that helps young people who have been bullied or feel bad about themselves',
-    preview: require('./showcase/aide_jeune.png'),
-    website: 'https://aidejeune.fr',
-    source: null,
-    tags: [],
-  },
-  {
-    title: "Akara's blog",
-    description: 'Personal frontend blog for learning',
-    preview: require('./showcase/akara-blog.png'),
-    website: 'https://messiahhh.github.io/blog/',
-    source: 'https://github.com/messiahhh/blog',
-    tags: ['opensource', 'personal'],
-  },
-  {
-    title: 'Dyte',
-    description: 'The most developer friendly live video SDK',
-    preview: require('./showcase/dyte.png'),
-    website: 'https://docs.dyte.io',
-    source: 'https://github.com/dyte-in/docs',
-    tags: [
-      'favorite',
-      'product',
-      'design',
-      'versioning',
-      'large',
-      'opensource',
-    ],
-  },
-  {
-    title: 'Ionic',
-    description:
-      'An open source UI toolkit for building performant, high-quality mobile and desktop apps using web technologies.',
-    preview: require('./showcase/ionic.png'),
-    website: 'https://ionicframework.com/docs',
-    source: 'https://github.com/ionic-team/ionic-docs',
-    tags: [
-      'favorite',
-      'opensource',
-      'product',
-      'design',
-      'i18n',
-      'versioning',
-      'large',
-    ],
-  },
-  {
-    title: 'Refine',
-    description:
-      'A React-based framework for building data-intensive applications in no time!',
-    preview: require('./showcase/refine.png'),
-    website: 'https://refine.dev',
-    source: 'https://github.com/pankod/refine/tree/master/documentation',
-    tags: [
-      'favorite',
-      'opensource',
-      'product',
-      'design',
-      'versioning',
-      'large',
-    ],
-  },
+  // {
+  //   title: 'AgileTs',
+  //   description: 'Global State and Logic Framework for reactive Applications',
+  //   preview: require('./showcase/agilets.png'),
+  //   website: 'https://agile-ts.org/',
+  //   source: 'https://github.com/agile-ts/documentation',
+  //   tags: ['opensource', 'design'],
+  // },
+  // {
+  //   title: 'AI-Speaker',
+  //   description: 'Local, reliable, fast and private Audio and IoT gate.',
+  //   preview: require('./showcase/aispeaker.png'),
+  //   website: 'https://ai-speaker.com/',
+  //   source: 'https://github.com/sviete/AIS-WWW',
+  //   tags: ['opensource'],
+  // },
+  // {
+  //   title: 'Aide Jeune',
+  //   description:
+  //     'French Discord server that helps young people who have been bullied or feel bad about themselves',
+  //   preview: require('./showcase/aide_jeune.png'),
+  //   website: 'https://aidejeune.fr',
+  //   source: null,
+  //   tags: [],
+  // },
+  // {
+  //   title: "Akara's blog",
+  //   description: 'Personal frontend blog for learning',
+  //   preview: require('./showcase/akara-blog.png'),
+  //   website: 'https://messiahhh.github.io/blog/',
+  //   source: 'https://github.com/messiahhh/blog',
+  //   tags: ['opensource', 'personal'],
+  // },
+  // {
+  //   title: 'Dyte',
+  //   description: 'The most developer friendly live video SDK',
+  //   preview: require('./showcase/dyte.png'),
+  //   website: 'https://docs.dyte.io',
+  //   source: 'https://github.com/dyte-in/docs',
+  //   tags: [
+  //     'favorite',
+  //     'product',
+  //     'design',
+  //     'versioning',
+  //     'large',
+  //     'opensource',
+  //   ],
+  // },
+  // {
+  //   title: 'Ionic',
+  //   description:
+  //     'An open source UI toolkit for building performant, high-quality mobile and desktop apps using web technologies.',
+  //   preview: require('./showcase/ionic.png'),
+  //   website: 'https://ionicframework.com/docs',
+  //   source: 'https://github.com/ionic-team/ionic-docs',
+  //   tags: [
+  //     'favorite',
+  //     'opensource',
+  //     'product',
+  //     'design',
+  //     'i18n',
+  //     'versioning',
+  //     'large',
+  //   ],
+  // },
+  // {
+  //   title: 'Refine',
+  //   description:
+  //     'A React-based framework for building data-intensive applications in no time!',
+  //   preview: require('./showcase/refine.png'),
+  //   website: 'https://refine.dev',
+  //   source: 'https://github.com/pankod/refine/tree/master/documentation',
+  //   tags: [
+  //     'favorite',
+  //     'opensource',
+  //     'product',
+  //     'design',
+  //     'versioning',
+  //     'large',
+  //   ],
+  // },
 
   /*
   Pro Tip: add your site in alphabetical order.
