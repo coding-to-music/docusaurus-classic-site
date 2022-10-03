@@ -80,22 +80,6 @@ const config = {
                 label: "Glady's Assistant Open Metrics using chart.js",
                 to: "/gladys-assistant/open-metrics",
               },
-              //     {
-              //       label: "111 using chart.js",
-              //       to: "/charts/open",
-              //     },
-              //     {
-              //       label: "222 using chart.js",
-              //       to: "/charts/open",
-              //     },
-              //     {
-              //       label: "333 using chart.js",
-              //       to: "/charts/open",
-              //     },
-              //     {
-              //       label: "444 using chart.js",
-              //       to: "/charts/open",
-              //     },
             ],
           },
           {
