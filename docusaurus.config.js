@@ -70,7 +70,11 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/charts/open", label: "Charts", position: "left" },
+          {
+            to: "/gladys-assistant/open-metrics",
+            label: "Charts",
+            position: "left",
+          },
           {
             type: "dropdown",
             label: "Charts",
