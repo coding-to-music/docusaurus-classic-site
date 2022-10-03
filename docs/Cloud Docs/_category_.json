@@ -1,0 +1,8 @@
+{
+  "label": "Infrastructure As Code (IAC)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Useful cloud development software including Terraform and Docker for Cloudflare and Digitalocean"
+  }
+}

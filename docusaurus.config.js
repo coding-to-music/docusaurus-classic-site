@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "This Site Name",
+  title: "all-knowledge.info",
   tagline: "Dinosaurs are cool",
   url: "http://all-knowledge.info",
   baseUrl: "/",
@@ -57,15 +57,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Home",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
-        },
+        title: "all-knowledge.info",
+        // logo: {
+        //   alt: "all-knowledge.info Logo",
+        //   src: "img/logo.svg",
+        // },
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "Cloud Docs/iac-docs",
+            position: "left",
+            label: "Docs",
+          },
+          {
+            type: "doc",
+            docId: "Docusaurus/intro",
             position: "left",
             label: "Tutorial",
           },
@@ -101,7 +107,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/docs/docusaurus/intro",
               },
             ],
           },
