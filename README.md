@@ -460,3 +460,7 @@ a different dependency.
 
 Run `npm audit` for details.
 ```
+
+## Added plugin-ideal-image
+
+https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-ideal-image

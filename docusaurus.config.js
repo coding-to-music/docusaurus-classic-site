@@ -26,7 +26,20 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-
+  plugins: [
+    [
+      "ideal-image",
+      /** @type {import('@docusaurus/plugin-ideal-image').PluginOptions} */
+      ({
+        quality: 70,
+        max: 1030,
+        min: 640,
+        steps: 2,
+        // Use false to debug, but it incurs huge perf costs
+        disableInDev: true,
+      }),
+    ],
+  ],
   presets: [
     [
       "classic",
@@ -81,17 +94,18 @@ const config = {
             label: "Charts",
             position: "left",
           },
-          {
-            type: "dropdown",
-            label: "Charts",
-            position: "left",
-            items: [
-              {
-                label: "Glady's Assistant Open Metrics using chart.js",
-                to: "/gladys-assistant/open-metrics",
-              },
-            ],
-          },
+          { to: "showcase", label: "Showcase", position: "left" },
+          // {
+          //   type: "dropdown",
+          //   label: "Charts",
+          //   position: "left",
+          //   items: [
+          //     {
+          //       label: "Glady's Assistant Open Metrics using chart.js",
+          //       to: "/gladys-assistant/open-metrics",
+          //     },
+          //   ],
+          // },
           {
             href: "https://github.com/coding-to-music/docusaurus-classic-site",
             label: "GitHub",
