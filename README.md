@@ -6,6 +6,10 @@ https://docusaurus-classic-site.pages.dev
 
 https://github.com/coding-to-music/docusaurus-classic-site
 
+https://docusaurus-classic-site.vercel.app
+
+https://vercel.com/coding-to-music/docusaurus-classic-site
+
 From / By Docusaurus
 
 https://docusaurus.io/docs/installation#scaffold-project-website
