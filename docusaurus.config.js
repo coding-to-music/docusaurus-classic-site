@@ -26,62 +26,104 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [
-    [
-      "ideal-image",
-      /** @type {import('@docusaurus/plugin-ideal-image').PluginOptions} */
-      ({
-        quality: 70,
-        max: 1030,
-        min: 640,
-        steps: 2,
-        // Use false to debug, but it incurs huge perf costs
-        disableInDev: true,
-      }),
-    ],
-  ],
+  plugins: ["@docusaurus/plugin-ideal-image"],
+
+  // plugins: [
+  //   [
+  //     "ideal-image",
+  //     /** @type {import('@docusaurus/plugin-ideal-image').PluginOptions} */
+  //     ({
+  //       quality: 70,
+  //       max: 1030,
+  //       min: 640,
+  //       steps: 2,
+  //       // Use false to debug, but it incurs huge perf costs
+  //       disableInDev: true,
+  //     }),
+  //   ],
+  // ],
   webpack: {
     jsLoader: (isServer) => ({
-      loader: require.resolve('swc-loader'),
+      loader: require.resolve("swc-loader"),
       options: {
         jsc: {
           parser: {
-            syntax: 'typescript',
+            syntax: "typescript",
             tsx: true,
           },
-          target: 'es2017',
+          target: "es2017",
         },
         module: {
-          type: isServer ? 'commonjs' : 'es6',
+          type: isServer ? "commonjs" : "es6",
         },
       },
     }),
   },
   presets: [
     [
-      "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      "@docusaurus/preset-classic",
+      {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/coding-to-music/docusaurus-classic-site/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/priambudiLB/fyi/tree/main",
+          editLocalizedFiles: true,
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/coding-to-music/docusaurus-classic-site/tree/main/packages/create-docusaurus/templates/shared/",
+          blogTitle: "Read | SiteOrBlogTitleHere",
+          blogDescription: "Blog Bagas",
+          editUrl: ({ locale, blogDirPath, blogPath, permalink }) => {
+            return `https://github.com/coding-to-music/docusaurus-classic-site/tree/main/${blogDirPath}/${blogPath}`;
+          },
+          routeBasePath: "read",
+          feedOptions: {
+            type: "all", // required. 'rss' | 'feed' | 'all'
+            title: "", // default to siteConfig.title
+            description: "", // default to  `${siteConfig.title} Blog`
+            copyright: `Copyright © ${new Date().getFullYear()} my-name`,
+            language: "en", // possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
+          },
+          editLocalizedFiles: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+        },
+      },
     ],
   ],
+
+  // presets: [
+  //   [
+  //     "classic",
+  //     /** @type {import('@docusaurus/preset-classic').Options} */
+  //     ({
+  //       docs: {
+  //         sidebarPath: require.resolve("./sidebars.js"),
+  //         // Please change this to your repo.
+  //         // Remove this to remove the "edit this page" links.
+  //         editUrl:
+  //           "https://github.com/coding-to-music/docusaurus-classic-site/tree/main/packages/create-docusaurus/templates/shared/",
+  //       },
+  //       blog: {
+  //         showReadingTime: true,
+  //         // Please change this to your repo.
+  //         // Remove this to remove the "edit this page" links.
+  //         editUrl:
+  //           "https://github.com/coding-to-music/docusaurus-classic-site/tree/main/packages/create-docusaurus/templates/shared/",
+  //         // editUrl: ({ locale, blogDirPath, blogPath, permalink }) => {
+  //         //   return `https://github.com/priambudiLB/fyi/tree/main/${blogDirPath}/${blogPath}`;
+  //       },
+  //       theme: {
+  //         customCss: require.resolve("./src/css/custom.css"),
+  //       },
+  //     }),
+  //   ],
+  // ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
